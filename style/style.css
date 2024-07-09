@@ -96,4 +96,33 @@
     border-radius: 20px;
     
 }
+.current-target-parent{
+    display: flex;
+     gap: 20px;
+}
+.Current-target-html{
+    background-color: rgb(255, 246, 244);
+    padding: 10px;
+}
+.Current-target-css{
+background-color: #F2F6FE;
+padding: 10px;
 
+}
+.Current-target-java{
+background-color: rgba(255, 223, 0, 0.05);
+padding: 10px;
+
+}
+
+
+
+
+
+/* -----------------------footer-main----------------- */
+.footer-main{
+    display: flex;
+    height: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 50px;
+}
