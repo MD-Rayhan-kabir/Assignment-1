@@ -46,8 +46,8 @@
     text-align: center;
 
 }
-
-.development-continer{
+/* ------------------Web Developoment------------------- */
+.development-text{
     width: 90%;
     margin: 0 auto;
     padding: 10px;
@@ -57,3 +57,43 @@
     
     
 } 
+.development{
+    max-width: 1440px;
+}
+.development-btn{
+    padding: 15px 40px;
+   align-items: center;
+   font-size: large;
+}
+.development-continur{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+     gap: 100px;
+}
+.development-continur-title .development-image{
+    width: 50%;
+    flex-direction: column-reverse;
+
+}
+.development-continur-system{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+     gap: 100px;
+} 
+.development-system{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+.inspiration-video{
+    padding: 10%;
+    border: 1px solid rgba(5, 0, 0, 0.603);
+    border-radius: 20px;
+    
+}
+
