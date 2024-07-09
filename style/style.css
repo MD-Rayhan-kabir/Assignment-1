@@ -125,4 +125,9 @@ padding: 10px;
     height: 100px;
     background-color: rgba(13, 19, 33, 0.03);
     margin-top: 50px;
+    
+    
+}
+.footer-main.a{
+    text-decoration: none;
 }
