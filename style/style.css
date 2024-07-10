@@ -20,6 +20,8 @@
      max-width: 1440px;
      height: 480px;
     padding-top: 10px;
+    background-size: cover;
+background-repeat: no-repeat;
     
 }
 .banner-continar{
@@ -46,8 +48,9 @@
     text-align: center;
 
 }
-/* ------------------Web Developoment------------------- */
+
 .development-text{
+    color: black;
     width: 90%;
     margin: 0 auto;
     padding: 10px;
@@ -91,7 +94,8 @@
 }
 
 .inspiration-video{
-    padding: 10%;
+    height: 400px;
+    padding: 10px 10px;
     border: 1px solid rgba(5, 0, 0, 0.603);
     border-radius: 20px;
     
@@ -114,28 +118,41 @@ background-color: rgba(255, 223, 0, 0.05);
 padding: 10px;
 
 }
-.support{
-    background-image: url(../assets/handshake.jpg);
-    background-size: cover;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 10px;
-    
 
-}
 .development-text{
-    color: white;
-    display: flex;
+    color: rgb(0, 0, 0);
+    
    
     
 }
-  .form-main{
-    margin-left: 100px;
-  } 
-.form{
-    padding: 10px;
-    
 
+.form{
+ width: 450px;
+    padding: 30px;
+}
+.form-sub{
+    width: 200px;
+    padding: 30px;
+}
+.suppoert{
+    background-image: url(../assets/handshake.jpg);
+     
+      height: 800px;
+      background-color: #aaa;
+      background-size: cover;
+ background-repeat: no-repeat;
+
+}
+
+.suppoert-conti{
+    width: 90%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   padding: 80px;
+   padding-top: 280px;
 }
 
 
@@ -148,6 +165,7 @@ padding: 10px;
     
     
 }
-.footer-main.a{
+.footer-social a {
     text-decoration: none;
 }
+
